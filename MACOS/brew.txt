@@ -64,3 +64,11 @@ font-sf-pro
 font-space-mono-nerd-font
 sf-symbols
 asdf
+visual-studio-code
+zsh
+libpq
+postgresql
+ollama
+thunderbird
+gpg
+pinentry-mac

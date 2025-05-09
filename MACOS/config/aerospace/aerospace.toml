@@ -230,7 +230,7 @@ run = [
 ]
 
 [[on-window-detected]]
-if.window-title-regex-substring='Android Emulator'
-if.during-aerospace-startup = false  
+if.window-title-regex-substring = 'Android Emulator'
+if.during-aerospace-startup = true
 check-further-callbacks = true
-run = 'layout tiling'  
+run = ['layout tiling']

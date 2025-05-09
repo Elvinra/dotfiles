@@ -16,7 +16,7 @@ blur = true
 #option_as_alt = "Both"
 
 [font]
-normal.family = "Menlo"
+normal.family = "MesloLGS NF"
 
 size=14
 
