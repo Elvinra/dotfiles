@@ -216,6 +216,11 @@ run = ['layout tiling', 'move-node-to-workspace 2']
 if.app-id = 'org.alacritty'
 run = ['layout tiling', 'move-node-to-workspace 3']
 
+[[on-window-detected]]
+if.app-id = 'com.microsoft.edgemac'
+if.window-title-regex-substring = 'Picture in Picture'
+run = 'layout floating'
+check-further-callbacks = true
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.edgemac'
@@ -236,10 +241,3 @@ if.window-title-regex-substring = 'Android Emulator'
 if.during-aerospace-startup = true
 check-further-callbacks = true
 run = ['layout tiling']
-
-
-[[on-window-detected]]
-if.app-id = 'com.microsoft.edgemac'
-if.window-title-regex-substring = 'Picture in Picture'
-run = 'layout floating'
-check-further-callbacks = true
